@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Lexend:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: Poppins;
+    background-color: #bdbdbd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+
+}
+.card{
+    background-color:#f5efef;
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px ;
+
+}
+.navbar p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar ul{
+    display: flex;
+    gap: 20px;
+    
+}
+li{
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.btn-grp{
+    display: flex;
+    gap: 15px;
+}
+.btn, .plan{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.btn{
+    background-color: black;
+    color: white;
+}
+.plan:hover{
+    background-color: black;
+    color: white;
+}
+.container{
+    display: flex;
+    width: 100%;
+    background-color: #f5efef;
+    
+}
+.textsection{
+    width: 60%;
+    padding: 30px;
+
+}
+.texsection h6{
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.textsection h1{
+    margin-top: 0;
+}
+.textsection ul{
+    padding: 0;
+}
+.btn:hover{
+    background-color: rgb(151, 151, 156);
+    color: black;
+    margin: 10px;
+    /* cursor: pointer; */
+}
+
+

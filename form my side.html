@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display: block;
+        }
+        /* fieldset label{
+            display: inline;
+        } */
+        .gender label{
+            display: inline;
+         }
+    </style>
+</head>
+
+<body>
+  <div class="form">
+    <h1>User Information</h1>
+    <form action="#">
+        <label for="name">Name</label>
+        
+        <input type="text" name="name" id="name" placeholder="Enter Your Name">
+        
+        <label for="age">Age</label>
+        
+        <input type="number" name="age" id="age"placeholder="Enter Your Age">
+        
+        <label for="email">Email</label>
+        
+        <input type="email" name="email" id="email" placeholder="Enter Your Email">
+        
+        <label for="dob">Date of Birth</label>
+        
+        
+        <input type="date" name="dob" id="dob" placeholder="Enter Your DOB">
+        
+        <label for="time">Time</label>
+    
+        <input type="time" name="time" id="time" placeholder="Enter Time">
+        
+        <!-- <label for="gender">gender</label>
+        <input type="radio" name="gender" id="gender">Male
+        <input type="radio" name="gender" id="gender">Female -->
+        
+        <fieldset class="gender">
+
+            <legend>Gender</legend>
+
+            <label for="male">
+
+                <input type="radio" name="gender" id="male" value="Male" placeholder="Enter Your Gender">Male
+                
+            </label>
+            <div>
+                <label for="">Hello</label>
+                <label for="">Hello</label>
+                <label for="">Hi</label>
+            </div>
+            <label for="Female">
+                <input type="radio" name="gender" id="Female" value="Female" placeholder="gender">Female
+            </label>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Services</legend>
+
+            <label for="webdev"><input type="checkbox" name="service" id="webdev" value="webdev">Web Development</label>
+            
+            <label for="sofdev"><input type="checkbox" name="service" id="sofdev" value="sofdev">Software Development</label>
+        
+            <label for="mobapp"><input type="checkbox" name="service" id="mobapp" value="mobdev">Mobile Application</label>
+        
+        </fieldset>
+        
+        <label for="city">City</label>
+        
+        <select name="city" id="city">
+        
+            <option value="selected">Select your city</option>
+
+        
+            <option value="karachi">Karachi</option>
+        
+            <option value="ghotki">Ghotki</option>
+        
+            <option value="lahore">Lahore</option>
+        
+            <option value="Hyderabad">Hyderabad</option>
+
+            <option value="selected">Select your city</option>
+
+        
+            <option value="Komari">Komari</option>
+        
+            <option value="rawalpindi">Rawalpindi</option>
+        
+            <option value="pano aqil">Pano Aqil</option>
+        
+            <option value="islamabad">Islamabad</option>
+        
+        </select>
+        
+        <button type="reset">Reset</button>
+
+        <button type="submit">Submit now</button>
+        
+    </form>
+
+  </div>  
+</body>
+</html>
