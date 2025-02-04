@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #bebeb6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            position: relative;
+            width: 200px;
+            height: 200px;
+            border: 3px solid black;
+            border-radius: 20px;
+            position: relative;
+        }
+        .box1{
+            top: 70px;
+            left: -70px;
+            background-color: rgb(105, 60, 60);
+            z-index: 3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box2{
+            background-color: rgb(158, 13, 13);
+            z-index: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box3{
+            background-color: rgb(143, 127, 127);
+            top: -70px;
+            left: 70px;
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* .box:active{
+            z-index: 4;
+        } */
+        .box2:hover{
+            z-index: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="box box1">HEllo mama</div>
+    <div class="box box2">Hello chachi</div>
+    <div class="box box3">HEllo Nani</div>
+</div>
+</body>
+</html>
