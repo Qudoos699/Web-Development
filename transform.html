@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .circle{
+            border: 2px solid black;
+            /* border-radius: 50%; */
+            width: 200px;
+            height: 200px;
+            transition: all 2s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .circle:hover{
+            
+            /* transform: translate(200px , 100px); */
+            /* transform: translateX(200px); */
+            /* transform: translateY(200px); */
+            /* transform: skewY(45deg); */
+            /* transform: skewY(45deg);*/
+            /* transform: skew(20deg,20deg);
+            transform: rotate(3400deg);*/
+            /* transform: rotateY(180deg); */
+            transform: scaleY(0.5);
+            transform: scaleX(2);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="circle">Hello</div>
+</body>
+</html>
