@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+        .spotify {
+            display: flex;
+        }
+
+
+        .navbar {
+            padding: 20px;
+            text-align: left;
+            background-color: rgb(35, 35, 35);
+            height: 100vh;
+            flex: 1;
+            padding-right: 10px;
+
+
+        }
+
+        .navbar h1 {
+            background: transparent;
+            margin-bottom: 10px;
+        }
+
+        .navbar ul {
+            list-style: none;
+            padding: 20px;
+            margin-top: 10px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            margin: 0px 10px;
+        }
+
+
+        .navbar li {
+            margin-bottom: 10px;
+        }
+
+        .card1 {
+            display: flex;
+        }
+
+        .container {
+            flex: 5;
+            padding: 20px;
+
+        }
+
+        .container h1 {
+            border-radius: 12px;
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: lightgreen;
+        }
+
+        .song-row .card {
+            display: flex;
+
+        }
+
+        .song {
+            margin: 10px;
+            background-color: rgb(60, 59, 59);
+            border-radius: 12px;
+            padding: 20px;
+
+        }
+
+        .Song-1 {
+            display: flex;
+            justify-content: space-between;
+            width: 85%;
+            margin: auto;
+            margin-bottom: 10px;
+            background-color: rgb(27, 27, 27);
+            padding: 12px;
+            border-radius: 20px;
+
+        }
+
+        .symbol {
+            background-color: green;
+            border-radius: 100%;
+        }
+
+        .song {
+            justify-content: center;
+            flex: 1;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+        }
+
+        audio {
+            filter: invert(1);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="card1">
+        <div class="navbar">
+            <h1>Spotify</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Your Library</a></li>
+            </ul>
+        </div>
+
+        <div class="container">
+
+            <h1>Welcome to Spotify</h1>
+
+
+            <div class="song-row">
+                <div class="card">
+                    <div class="song">
+                        <div class="Song-1">Song 1 <div class="symbol">🎶</div>
+                        </div>
+
+
+                        <audio controls>
+                            <source src="it-makes-you-forget-chill-electronica-283958.mp3" type="" width="100%">
+                        </audio>
+
+                    </div>
+                    <div class="song">
+                        <div class="Song-1">Song 2 <div class="symbol">🎶</div>
+                        </div>
+
+                        <div>
+                            <Audio controls>
+                                <source src="it-makes-you-forget-chill-electronica-283958.mp3" type="" width="100%">
+
+                        </div>
+                    </div>
+                    <div class="maincotaniner"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
